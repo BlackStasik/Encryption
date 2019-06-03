@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:controller="ResController" id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="368.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label fx:id="n" alignment="CENTER" layoutX="103.0" layoutY="14.0" prefHeight="33.0" prefWidth="163.0" text="Повідомлення">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+    </Label>
+    <TextArea fx:id="m" layoutX="17.0" layoutY="20.0" prefHeight="137.0" prefWidth="340.0" wrapText="true" />
+    <Button onAction="#close" blendMode="DIFFERENCE" layoutX="221.0" layoutY="184.0" mnemonicParsing="false" prefWidth="110.0" text="Закрити" textFill="#fff500">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>
